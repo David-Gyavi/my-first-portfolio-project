@@ -1,45 +1,105 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+## **Goal for this project**
 
-Welcome USER_NAME,
+This project is all about my Portfolio, so in general am talking about my self and the skills I can render to the user or Customer.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+In this portfolio you will be able to navigate with custom tuggle button through down the page and you will be able to scroll the page from the header to the footer.
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Table of Contents
+* [UX](#ux)
+    * [User Goals](#user-goals)
+    * [User Stories](#user-stories)
+    * [Site Owners Goals](#site-owners-goals)
+    * [User Requirements and Expectations](#user-requirements-and-expectations)
+        * [Requirements](#requirements)
+        * [Expectations](#expectations)
+    * [Design Choices](#design-choices)
+        * [Fonts](#fonts)
+        * [Colors](#colors)
+        * [Structure](#structure)
+* [Wireframes:](#wireframes)
+    * [Wireframes](#wireframes)
+    * [Flowcharts](#flowcharts)
+    * [Database Structure](#database-structure)
+* [Features](#features)
+    * [Existing Features](#existing-features)
+    * [Features to be implemented](#features-to-be-implemented)
+* [Technologies used](#technologies-used)
+    * [Languages](#languages)
+    * [Libraries and Frameworks](#libraries-and-frameworks)
+    * [Tools](#tools)
+* [Testing](#testing)
+* [Deployment](#deployment)
+    * [Local Deployment](#local-deployment)
+    * [Heroku Deployment](#heroku-deployment)
+* [Credits](#credits)
 
-`python3 -m http.server`
+<a name="ux"></a>
 
-A blue button should appear to click: *Make Public*,
+## **UX**
 
-Another blue button should appear to click: *Open Browser*.
+<a></a>
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### **User Goals**
 
-A blue button should appear to click: *Make Public*,
+* This website has to work well on on all kind of devices like mobile phones, tablets and desktops.
 
-Another blue button should appear to click: *Open Browser*.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+[Back to Top](#table-of-contents)
 
-## Updates Since The Instructional Video
+<a></a>
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### **User Stories**
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+* As a user, I want to login after I created an account and see my previous inserted information.
+* As a user, I would like to have a personal profile for my portfolio.  
+* As a user, I would like to have a dashboard where I can have a good overview. 
+* As a user, I want to be able to search on date to get specific data. 
+* As a user, I want to be able to edit the portfolio profile.
+* As a user, I want to have the possibility to edit a log when I made a mistake or want to add/delete some info. 
+* As a user, I want to have the possibiltiy to delete a log as well when no longer relevant. 
+* As a user, I want the website to be easy to use. 
+* As a user, I want the process to add / edit / delete info to be easy
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+<a></a>
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### **Site owners Goals**
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+[Back to Top](#table-of-contents)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+<a></a>
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### **User Requirements and Expectations**
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+<a></a>
 
---------
+#### Requirements
 
-Happy coding!
+<a></a>
+
+#### Expectations
+
+[Back to Top](#table-of-contents)
+
+<a></a>
+
+### **Design Choices**
+
+<a></a>
+
+#### Colors
+
+I have decided to use some colors that fit well with the strong presentation of the portfolio.
+Below I will explain more why I choose the various colors and for what I will be using them.
+
+![Color Palette](wireframes/color_palette.png)
+
+* #F8F9FA: I have decided to keep the background of the overall website white-Cultured in order give the clean look of the Site.
+* #CED4DA: This color I will use as a background color for whole dashboard. 
+* #6C757D: This color I will use as a background color for the logs on the dashboard in order to have a small contract versus #D9D9D9 dashboard color.
+* #090A0B: This will be the color that I will use for my navigation bar and buttons in order to give a bit of color to the website. This color will also be used as the overall text color.
+
+I have used a contrast checker in order to make sure that the contrast is sufficient.
+This way my content will be easily readable. 
+
+<a></a>
