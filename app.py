@@ -28,10 +28,30 @@ def get_portfolio():
 
 @app.route("/contact", methods=["GET","POST"])
 def contact():
+    if request.method == "POST":
+        # check if username already exists in db
+        existing_user = mongo.db.users.find_one(
+            {"username": request.form.get("username").lower()})
+
+
+        if existing_user:
+            flash("Username already exists")
+            return redirect(url_for("contact"))
+
+        contact = {
+            "username": request.form.get("username").lower(),
+            "password": generate_password_hash(request.form.get("password"))
+        }
+        mongo.db.users.insert_one(contact)  
+
+        # put the new user into 'session' cookie
+        session["users"] = request.form.get("username").lower()
+        flash("Registration Successful")
     return render_template("contact.html")  
 
 
 if __name__ == "__main__":
     app.run(host=os.environ.get("IP"),
             port=int(os.environ.get("PORT")),
-            debug=True)    
+            debug=True)  
+  
